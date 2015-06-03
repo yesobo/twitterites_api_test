@@ -1,0 +1,23 @@
+div.user {
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+
+fav-tweet>div {
+  border: 1px solid black;
+  max-width: 220px;
+  min-height: 130px;
+  box-sizing: content-box;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+fav-tweet>div:hover {
+  background-color: lightblue;
+}
+
+.selected {
+  border: 5px solid grey;
+  background-color: lightgrey;
+}

@@ -1,0 +1,16 @@
+{
+  "libs": [
+    "browser",
+    "ecma5",
+    "ecma6"
+  ],
+  "loadEagerly": [
+    "src/*.js"
+  ],
+  "plugins": {
+    "requirejs": {
+      "baseURL": "./",
+      "paths": {}
+    }
+  }
+}

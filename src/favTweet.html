@@ -1,0 +1,13 @@
+<template>
+  <link rel="stylesheet" href="styles/twitter-fav.css">
+  <div click.trigger='switchSelect()'
+    class="${selectedClass}">
+
+    <div class='user'>
+      ${model.user.name}
+    </div>
+    <span>
+      ${model.text}
+    </span>
+  </div>
+</template>

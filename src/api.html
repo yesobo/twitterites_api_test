@@ -1,0 +1,30 @@
+<template>
+    <require from="./api"></require>
+
+    <section>
+        <h2>${heading}</h2>
+		<div>
+            <label>My last saved Twitterite Id:</label>
+            <button click.trigger="getLastSavedTwitterite()">
+                Get Twitterite
+            </button>
+            <label>${last_saved_twitterite}</label>
+        </div>
+        <div>
+            <label>My databases:</label>
+            <button click.trigger="getMyDatabases()">Get my databases</button>
+        </div>
+        <div>
+            <label>My collections in twitterites:</label>
+            <button click.trigger="getTwitteritesCollections()">
+                Get collections
+             </button>
+        </div>
+        <div>
+            <label>Twitterites not saved<:</label>
+            <button click.trigger="getTwitteritesNotSaved()">
+                Get not saved
+            </button>
+        </div>
+    </section>
+</template>

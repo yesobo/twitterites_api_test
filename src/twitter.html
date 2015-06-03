@@ -1,0 +1,13 @@
+<template>
+    <require from="./favTweet"></require>
+
+    <section>
+        <h2>${heading}</h2>
+        <div class="row">
+        <div class="container">
+          <fav-tweet repeat.for="fav of favs"
+            model.bind="fav"></fav-tweet>
+        </div>
+        </div>
+    </section>
+</template>
