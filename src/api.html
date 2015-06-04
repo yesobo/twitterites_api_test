@@ -1,9 +1,10 @@
 <template>
+    <link rel="stylesheet" href="styles/api-test.css">
     <require from="./api"></require>
 
     <section>
         <h2>${heading}</h2>
-		<div>
+		    <div>
             <label>My last saved Twitterite Id:</label>
             <button click.trigger="getLastSavedTwitterite()">
                 Get Twitterite
@@ -21,10 +22,11 @@
              </button>
         </div>
         <div>
-            <label>Twitterites not saved<:</label>
+            <label>Twitterites not saved:</label>
             <button click.trigger="getTwitteritesNotSaved()">
                 Get not saved
             </button>
+            <label>${backup_message}</label>
         </div>
     </section>
 </template>

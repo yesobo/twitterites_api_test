@@ -1,0 +1,6 @@
+section > div {
+  display: table-row;
+}
+section > div > label {
+  display: table-cell;
+}
